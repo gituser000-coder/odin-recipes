@@ -12,8 +12,12 @@ ul li {
 }
 
 div.container {
-    border: 2px solid red;
+    border-right: 5px solid green;
+    border-left: 5px solid green;
+    border-bottom: 5px solid green;
+    background-color: greenyellow;
     margin-left: 40px;
+    margin-right: 30px;
     width: 1400px;
     box-sizing: border-box;
     display: inline-block;
@@ -25,14 +29,58 @@ div.container {
 * {
     padding: 10px;
     font-size: 20px;
-   }
+}
 
 .food {
     display: block;
-    margin-left: 500px;
+    margin-left: 350px;
 }
 
 .ingredients {
     background-color: aquamarine;
 }
+
+div.rightcontainer {
+    margin-top: 30px;
+    color: white;
+    background-color: greenyellow;
+    box-sizing: border-box;
+    height:auto;
+    width: 350px;
+    display: inline;
+    border: 5px solid green;
+    float: right;
+    position: fixed;
+    .sidelink1, .sidelink2, .sidelink3 {
+        display: block;
+        text-align: center;
+    }
+.sidelinkhome {
+    display: block;
+    text-align: center;
+    }
+.visitlink {
+    margin-bottom: -5px;
+    background-color: rgb(23, 77, 23);
+}
+.homebutton {
+    border: 2px solid blue;
+    background-color: rgb(233, 233, 119);
+}
+
+}
+
+.header {
+    margin: -30px -30px 0px -30px;
+    background-color: rgb(1, 51, 1);
+
+    .headerrecipe {
+        color: white;
+    }
+}
+.body {
+    background-color: aquamarine;
+}
+
+
 
