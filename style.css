@@ -13,15 +13,26 @@ ul li {
 
 div.container {
     border: 2px solid red;
-    margin: 40px;
+    margin-left: 40px;
+    width: 1400px;
+    box-sizing: border-box;
+    display: inline-block;
+    p {
+        background-color: aqua;
+    }
 }
 
 * {
     padding: 10px;
-}
+    font-size: 20px;
+   }
 
 .food {
-    border: 10px solid green;
     display: block;
     margin-left: 500px;
 }
+
+.ingredients {
+    background-color: aquamarine;
+}
+
